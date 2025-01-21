@@ -35,5 +35,11 @@ public class ValidateQuote
         return quote.matches("[A-Z]{0}\\.$");
         //quote is all lowercase and contains a period at the end
     }
+
+    public static boolean validateFlashback(String quote)
+    {
+        return quote.matches("(Back in my day|I remember when|Remember that time)+");
+        //quote is some sort of flashback, or is recalling an action/event
+    }
 }
 
