@@ -20,8 +20,14 @@ public class ValidateQuote
 
     public static boolean validateBrainRot(String quote)
     {
-        return quote.matches("(skibidi|fortnite|vexbolts|tiktok|sigma|rizz|fanum|ohio)");
+        return quote.matches("(skibidi|fortnite|vexbolts|tiktok|sigma|rizz|fanum|ohio)+");
         //quote contains a word from the brain rot culture
+    }
+
+    public static boolean validateNumbers(String quote)
+    {
+        return quote.matches("[0-9]+");
+        //quote contains a number
     }
 
 }
