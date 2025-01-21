@@ -18,5 +18,10 @@ public class ValidateQuote
         //quote has a period somewhere in the middle of it, and some type of punctuation at the end
     }
 
-    
+    public static boolean validateBrainRot(String quote)
+    {
+        return quote.matches("(skibidi|fortnite|vexbolts|tiktok|sigma|rizz|fanum|ohio)");
+        //quote contains a word from the brain rot culture
+    }
+
 }
