@@ -33,8 +33,7 @@ public class ValidateQuote
     public static boolean validateBoring(String quote)
     {
         return quote.matches("[A-Z]{0}\\.$");
+        //quote is all lowercase and contains a period at the end
     }
-
-
 }
 
