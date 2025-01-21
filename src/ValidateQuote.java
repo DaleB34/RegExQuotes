@@ -30,4 +30,11 @@ public class ValidateQuote
         //quote contains a number
     }
 
+    public static boolean validateBoring(String quote)
+    {
+        return quote.matches("[A-Z]{0}\\.$");
+    }
+
+
 }
+
