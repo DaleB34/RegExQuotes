@@ -54,5 +54,10 @@ public class ValidateQuote
         //quote contains any of the 5 w's (Who, What, Where, When, Why)
     }
 
+    public static boolean validateCliffhanger(String quote)
+    {
+        return quote.matches("(\\.\\.\\.)$");
+        //quote ends with a ...
+    }
 }
 
