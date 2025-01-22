@@ -41,5 +41,11 @@ public class ValidateQuote
         return quote.matches("(Back in my day|I remember when|Remember that time)+");
         //quote is some sort of flashback, or is recalling an action/event
     }
+
+    public static boolean validateNoSpaces(String quote)
+    {
+        return quote.matches("(\\s){0}");
+        //quote contains no spaces
+    }
 }
 
