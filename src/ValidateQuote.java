@@ -47,5 +47,12 @@ public class ValidateQuote
         return quote.matches("(\\s){0}");
         //quote contains no spaces
     }
+
+    public static boolean validateFiveWs(String quote)
+    {
+        return quote.matches(".*(Who|What|Where|When|Why).*");
+        //quote contains any of the 5 w's (Who, What, Where, When, Why)
+    }
+
 }
 
