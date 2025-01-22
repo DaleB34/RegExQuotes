@@ -7,16 +7,34 @@ public class Main {
         String syntax4 = "just do it?";
         String syntax5 = "If idiots could fly, this place would be an airport.";
         String syntax6 = "this is a not quote!";
-        String syntax7 = "This might be a quote.";
+        String syntax7 = "This might be a quote?";
 
         String[] syntax = {syntax1,syntax2,syntax3,syntax4,syntax5,syntax6,syntax7};
 
         int count = 1;
         for(String s : syntax)
         {
-            System.out.println("Quote " + count + " valid: " + ValidateQuote.validateComplexity(s));
+            System.out.println("Quote " + count + " syntax valid: " + ValidateQuote.validateSyntax(s));
             count++;
         }
+
+        String excitement1 = "Just Do It!";
+        String excitement2 = "Just Do It.";
+        String excitement3 = "Why are we even here?";
+        String excitement4 = "LET ME OUT LET ME OUT LET ME OUT!";
+        String excitement5 = "This is the 5th quote of the set.";
+        String excitement6 = "This is the 6th quote of the set!";
+        String excitement7 = "What's better than 24? 25!";
+
+        String[] excitement = {excitement1, excitement2, excitement3, excitement4, excitement5, excitement6, excitement7};
+        count = 1;
+
+        for(String s : excitement)
+        {
+            System.out.println("Quote " + count + " excitement valid: " + ValidateQuote.validateExcitement(s));
+            count++;
+        }
+
 
 
     }
