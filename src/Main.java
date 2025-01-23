@@ -72,6 +72,13 @@ public class Main {
         String boring7 = "Playing a game by yourself is boring. You need a loser to crush so badly they can't recover.";
 
 
+        String flashback1 = "Back in my day, when I had to go to school and come back home, I had to walk uphill both ways.";
+        String flashback2 = "Hey Lois, remember that time when I...";
+        String flashback3 = "Hey you, you're finally awake. You were trying to cross the border?";
+        String flashback4 = "I can't remember anything from last night!";
+        String flashback5 = "I remember now!";
+        String flashback6 = "Way back when, I... forgot.";
+        String flashback7 = "I don't even like flashbacks. Why? Remember that time I...";
 
     }
 }
