@@ -63,6 +63,15 @@ public class Main {
         String numbers7 = "I have 0 idea what you're talking about.";
 
 
+        String boring1 = "k.";
+        String boring2 = "people die when they are killed.";
+        String boring3 = "Houston, we have a problem.";
+        String boring4 = "do you ever feel like a plastic bag floating in the wind?";
+        String boring5 = "oLD MCDONALD HAD A FARM.";
+        String boring6 = "that last quote... wasn't that interesting.";
+        String boring7 = "Playing a game by yourself is boring. You need a loser to crush so badly they can't recover.";
+
+
 
     }
 }
