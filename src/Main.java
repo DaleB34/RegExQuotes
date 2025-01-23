@@ -36,6 +36,15 @@ public class Main {
         }
 
 
+        String complexity1 = "The fake is of far greater value. In its deliberate attempt to be real, it's more real than the real thing.";
+        String complexity2 = "Because my time is limited, I don't have any time to waste hesitating. That is why I can walk straight ahead. That is why I never stop.";
+        String complexity3 = "Poi!";
+        String complexity4 = "It's alright to feel sad. When you're sad, you should experience that sorrow fully. It's not too late to move on after that.";
+        String complexity5 = "Just Do It.";
+        String complexity6 = "The longest word in the english dictionary is pneumonoultramicroscopicsilicovolcanoconiosis";
+        String complexity7 = "I didn't even know we had a Coco at our school.";
+
+
 
 
 
