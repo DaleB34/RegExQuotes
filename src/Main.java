@@ -80,5 +80,9 @@ public class Main {
         String flashback6 = "Way back when, I... forgot.";
         String flashback7 = "I don't even like flashbacks. Why? Remember that time I...";
 
+
+        String nospace1 = "Supercalifragilisticexpialidocious!";
+        String nospace2 = "";
+
     }
 }
