@@ -54,6 +54,15 @@ public class Main {
         String brainrot7 = "Ohio!";
 
 
+        String numbers1 = "Why was 6 afraid of 7?";
+        String numbers2 = "Because seven ate nine!";
+        String numbers3 = "Just Do It.";
+        String numbers4 = "One Two, skip a few, a hundred!";
+        String numbers5 = "28 stab wounds!";
+        String numbers6 = "My favorite number is 3.14159265358979.";
+        String numbers7 = "I have 0 idea what you're talking about.";
+
+
 
     }
 }
