@@ -45,6 +45,13 @@ public class Main {
         String complexity7 = "I didn't even know we had a Coco at our school.";
 
 
+        String brainrot1 = "People die when they are killed.";
+        String brainrot2 = "And the Skibidi said, let there be toilet!";
+        String brainrot3 = "I play Pokemon Go, every day!";
+        String brainrot4 = "Mass Vexbolts unfollowing December 31, 11:59 P.M.";
+        String brainrot5 = "I am the rizz master.";
+        String brainrot6 = "The 17th state in the United States.";
+        String brainrot7 = "Ohio!";
 
 
 
