@@ -22,8 +22,8 @@ public class Main {
         String excitement2 = "Just Do It.";
         String excitement3 = "Why are we even here?";
         String excitement4 = "LET ME OUT LET ME OUT LET ME OUT!";
-        String excitement5 = "This is the 5th quote of the set.";
-        String excitement6 = "This is the 6th quote of the set!";
+        String excitement5 = "Bonsai!";
+        String excitement6 = "Power isn't determined by your size, but the size of your heart and dreams!";
         String excitement7 = "What's better than 24? 25!";
 
         String[] excitement = {excitement1, excitement2, excitement3, excitement4, excitement5, excitement6, excitement7};
@@ -34,6 +34,8 @@ public class Main {
             System.out.println("Quote " + count + " excitement valid: " + ValidateQuote.validateExcitement(s));
             count++;
         }
+
+
 
 
 
