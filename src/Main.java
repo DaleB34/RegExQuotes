@@ -89,5 +89,14 @@ public class Main {
         String nospace6 = "I play Pokemon Go, everyday!";
         String nospace7 = "LETMEOUTLETMEOUTLETMEOUT";
 
+
+        String w1 = "What's up with airline food?";
+        String w2 = "Why would I ever let you in here?";
+        String w3 = "Who's Coco?";
+        String w4 = "I didn't even know we had a Coco at our school.";
+        String w5 = "Where's Coco? Let me see if they exist";
+        String w6 = "Why is their name even Coco?";
+        String w7 = "How is Coco even a real person?";
+
     }
 }
