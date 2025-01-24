@@ -20,31 +20,31 @@ public class ValidateQuote
 
     public static boolean validateBrainRot(String quote)
     {
-        return quote.matches("(skibidi|fortnite|vexbolts|tiktok|sigma|rizz|fanum|ohio)+");
+        return quote.matches(".*(Skibidi|Fortnite|Vexbolts|Tiktok|Sigma|Rizz|Fanum|Ohio).*");
         //quote contains a word from the brain rot culture
     }
 
     public static boolean validateNumbers(String quote)
     {
-        return quote.matches("[0-9]+");
+        return quote.matches(".*[0-9].*");
         //quote contains a number
     }
 
     public static boolean validateBoring(String quote)
     {
-        return quote.matches("[A-Z]{0}\\.$");
-        //quote is all lowercase and contains a period at the end
+        return quote.matches("^[a-z]");
+        //quote begins with a lowercase
     }
 
     public static boolean validateFlashback(String quote)
     {
-        return quote.matches("(Back in my day|I remember when|Remember that time)+");
+        return quote.matches(".*(Back in my day|I remember when|Remember that time).*");
         //quote is some sort of flashback, or is recalling an action/event
     }
 
-    public static boolean validateNoSpaces(String quote)
+    public static boolean validateHasSpaces(String quote)
     {
-        return quote.matches("(\\s){0}");
+        return quote.matches(".*(\\s).*");
         //quote contains no spaces
     }
 
@@ -56,7 +56,7 @@ public class ValidateQuote
 
     public static boolean validateCliffhanger(String quote)
     {
-        return quote.matches("(\\.\\.\\.)$");
+        return quote.matches(".*(\\.\\.\\.).*");
         //quote ends with a ...
     }
 }
