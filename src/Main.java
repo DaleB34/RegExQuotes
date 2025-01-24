@@ -99,5 +99,13 @@ public class Main {
         String w7 = "How is Coco even a real person?";
 
 
+        String cliff1 = "The ending to One Piece is...";
+        String cliff2 = "What is that cinematic device they use in shows and movies to leave people on the edge of their seat, waiting for more?";
+        String cliff3 = "Oh yeah, it was cliffhan...";
+        String cliff4 = "Just Do It.";
+        String cliff5 = "The reason I keep using the Nike quote is because...";
+        String cliff6 = "O Gang! Let's GOOOOO!";
+        String cliff7 = "Red Light! Green Light! Skibidi Light!";
+
     }
 }
