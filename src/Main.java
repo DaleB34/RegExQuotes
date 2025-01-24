@@ -82,7 +82,12 @@ public class Main {
 
 
         String nospace1 = "Supercalifragilisticexpialidocious!";
-        String nospace2 = "";
+        String nospace2 = "idontknowwhatquotetoputhere";
+        String nospace3 = "Just Do It.";
+        String nospace4 = "There's no more space in here!";
+        String nospace5 = "NowThere'sReallyNoSpaceInhere!";
+        String nospace6 = "I play Pokemon Go, everyday!";
+        String nospace7 = "LETMEOUTLETMEOUTLETMEOUT";
 
     }
 }
