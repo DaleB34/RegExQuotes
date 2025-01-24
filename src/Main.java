@@ -72,22 +72,22 @@ public class Main {
         String boring7 = "Playing a game by yourself is boring. You need a loser to crush so badly they can't recover.";
 
 
-        String flashback1 = "Back in my day, when I had to go to school and come back home, I had to walk uphill both ways.";
-        String flashback2 = "Hey Lois, remember that time when I...";
-        String flashback3 = "Hey you, you're finally awake. You were trying to cross the border?";
-        String flashback4 = "I can't remember anything from last night!";
-        String flashback5 = "I remember now!";
-        String flashback6 = "Way back when, I... forgot.";
-        String flashback7 = "I don't even like flashbacks. Why? Remember that time I...";
+        String fb1 = "Back in my day, when I had to go to school and come back home, I had to walk uphill both ways.";
+        String fb2 = "Hey Lois, remember that time when I...";
+        String fb3 = "Hey you, you're finally awake. You were trying to cross the border?";
+        String fb4 = "I can't remember anything from last night!";
+        String fb5 = "I remember now!";
+        String fb6 = "Way back when, I... forgot.";
+        String fb7 = "I don't even like flashbacks. Why? Remember that time I...";
 
 
-        String nospace1 = "Supercalifragilisticexpialidocious!";
-        String nospace2 = "idontknowwhatquotetoputhere";
-        String nospace3 = "Just Do It.";
-        String nospace4 = "There's no more space in here!";
-        String nospace5 = "NowThere'sReallyNoSpaceInhere!";
-        String nospace6 = "I play Pokemon Go, everyday!";
-        String nospace7 = "LETMEOUTLETMEOUTLETMEOUT";
+        String space1 = "Supercalifragilisticexpialidocious!";
+        String space2 = "idontknowwhatquotetoputhere";
+        String space3 = "Just Do It.";
+        String space4 = "There's no more space in here!";
+        String space5 = "NowThere'sReallyNoSpaceInhere!";
+        String space6 = "I play Pokemon Go, everyday!";
+        String space7 = "LETMEOUTLETMEOUTLETMEOUT";
 
 
         String w1 = "What's up with airline food?";
@@ -97,6 +97,7 @@ public class Main {
         String w5 = "Where's Coco? Let me see if they exist";
         String w6 = "Why is their name even Coco?";
         String w7 = "How is Coco even a real person?";
+
 
     }
 }
